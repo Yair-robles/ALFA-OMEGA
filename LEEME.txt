@@ -1,0 +1,25 @@
+ALFA & OMEGA — LANDING Y CATÁLOGO
+
+Incluye HTML, CSS, JavaScript, logo, imagen de frasco y 484 referencias.
+No requiere base de datos, PHP, Node ni instalación de paquetes.
+
+SUBIR AL HOSTING
+1. Descomprime este ZIP.
+2. Sube index.html, style.css, app.js, catalog.json y assets/ a la carpeta pública del dominio (normalmente public_html, www o htdocs).
+3. Conserva la estructura y los nombres de archivos.
+4. Abre tu dominio. También funciona en una subcarpeta.
+
+PRUEBA LOCAL
+Desde esta carpeta ejecuta: python -m http.server 8000
+Abre http://localhost:8000
+No abras index.html con doble clic: el navegador puede bloquear la carga de catalog.json desde file://.
+
+EDITAR
+catalog.json: referencias, diseñador, categoría y presentación.
+style.css: estilos y efectos visuales.
+index.html: contenido de la landing.
+assets/logo.png y assets/bottle.png: imágenes de identidad.
+
+La landing no incluye precios, carrito, pagos ni reservas.
+El frasco es una representación visual generada con la identidad Alfa & Omega.
+Las fuentes se cargan desde Google Fonts; hay fuentes de respaldo si no hay conexión.
